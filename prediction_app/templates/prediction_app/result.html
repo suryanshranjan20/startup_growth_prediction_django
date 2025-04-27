@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body { font-family: Arial; text-align: center; background: #f4f4f4; }
+        .result-container { background: white; padding: 20px; border-radius: 8px; display: inline-block; margin-top: 50px; }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h2>Predicted Growth Rate: {{ growth }}%</h2>
+        <img src="{{ plot_url }}" alt="Growth Prediction Graph" style="width:60%; margin-top:20px;">
+        <br><br>
+        <a href="/">Predict Another Startup</a>
+    </div>
+</body>
+</html>

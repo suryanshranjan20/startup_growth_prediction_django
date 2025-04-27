@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+myenv/
+__pycache__/
+*.pyc
+
+# Ignore database
+db.sqlite
+
+# Ignore prediction model
+prediction_model.pkl
+
+# Ignore AWS files and zipped files
+aws/
+awscliv2.zip
+
+# Ignore Kubernetes and Helm deployment files if needed (optional)
+k8s/
+helm/
+
+# Ignore static files if they are generated dynamically
+static/
+
+# Other general ignores
+.env
+*.log
