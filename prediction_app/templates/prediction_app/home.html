@@ -7,7 +7,8 @@
     <title>Startup Growth Prediction</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body { background: #f4f4f4; }
+        {% comment %} body { background: #f4f4f4; } {% endcomment %}
+        { background:rgb(2, 2, 2); }
         .form-container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); }
         .error { color: red; }
         .chart-container { text-align: center; margin-top: 20px; }
@@ -15,7 +16,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h2 class="text-center">Startup Growth Prediction by suryansh</h2>
+    <h2 class="text-center">Startup Growth Prediction</h2>
     <div class="form-container">
         <form method="POST" action="{% url 'home' %}">
             {% csrf_token %}
