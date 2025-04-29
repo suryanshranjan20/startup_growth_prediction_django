@@ -4,8 +4,6 @@ __pycache__/
 
 db.sqlite
 
-prediction_model.pkl
-
 aws/
 awscliv2.zip
 
