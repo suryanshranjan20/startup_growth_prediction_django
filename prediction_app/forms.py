@@ -1,5 +1,6 @@
 from django import forms
 
+
 class StartupForm(forms.Form):
     country = forms.CharField(label='Country', max_length=100)
     industry = forms.CharField(label='Industry', max_length=100)

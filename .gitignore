@@ -11,3 +11,5 @@ static/
 
 .env
 *.log
+
+tests.py
