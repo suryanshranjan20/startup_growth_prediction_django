@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: django-app
-        image: suryanshranjan/startup_growth_investment_prediction_webapp
+        image: suryanshranjan/startup_growth_investment_prediction_webapp:v3
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
